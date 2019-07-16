@@ -7,13 +7,6 @@ if operation != "sqrt":
 
 
 def check(num):
-#    for i in range(0, len(num)):
- #       x = num[i]
-  #      if x in "1234567890-":
-   #         is_num = True
-    #    else:
-     #       is_num = False
-      #  return is_num
     try:
         int(num)
     except ValueError:
